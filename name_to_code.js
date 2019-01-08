@@ -1,4 +1,4 @@
-var jvmCountries = {
+﻿var jvmCountries = {
   "AF": {"name": "Afghanistan", "coords": [33, 65]},
   "AL": {"name": "Albania", "coords": [41, 20]},
   "DZ": {"name": "Algeria", "coords": [28, 3]},
@@ -183,7 +183,7 @@ var jvmCountries = {
 function countryNameToCode(name)
 {	
 	//console.log(name.toLowerCase().replace(/'|´|`|’|\x2019/g, ""));
-	//console.log(name.toLowerCase()+" = "+(name.toLowerCase().replace(/'/g, "")=="Cote d'Ivoire".replace(/'/g, "").toLowerCase()));
+	//console.log(name.toLowerCase()+" = "+(name.toLowerCase().replace(/'/g, "")=="Cote d'Ivoire".toLowerCase().replace(/'/g, "")));
 	
 	for(var key in jvmCountries)
 	{
