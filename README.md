@@ -1,6 +1,6 @@
 # SIA Visualization
 
-This project visualizes a collection of organizations on a map and provides additional information.
+This project visualizes a collection of Startup accelerators, incubators and similar kinds of organizations on a map and provides additional information.
 
 ## How We Can Add Organizations
 
